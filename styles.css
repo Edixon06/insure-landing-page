@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#main-nav ul {
+    display: none;
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro-content {
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    height: 500px;
+    padding: 2rem;
+    padding-top: 10rem;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.intro-content img {
+    display: block;
+    position: absolute;
+}
+#left {
+    top: 0;
+    left: 0;
+}
+#right {
+    top: 70%;
+    right: 0;
+}
+.intro-content p {
+    line-height: 1.75rem;
+}
+.intro-content button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
+
+hr {
+    width: 12rem;
+    margin: 0 auto 4rem auto;
+}
+
+.were {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.were h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.section-item {
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.section-item img, .section-item h3 {
+    margin-bottom: 2rem;
+}
+
+.find-out {
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    color: white;
+    height: 400px;
+    width: 90%;
+    margin: 0 auto 8rem auto;
+    padding: 5rem 3rem 0 3rem;
+    text-align: center;
+}
+.find-out h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.find-out button {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 10rem;
+}
+
+.footer {
+    background-image: url(./images/bg-pattern-footer-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+.footer .social {
+    margin-top: 2rem;
+}
+.footer .social img {
+    margin: 0 0.5rem 0 0.5rem;
+}
+#footerSpliter {
+    margin-top: 1rem;
+    width: 100%;
+}
+.footer nav {
+    text-align: center;
+}
+.footer nav h4 {
+    margin-bottom: 2rem;
+}
+.footer nav ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
