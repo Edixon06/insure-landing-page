@@ -19,12 +19,15 @@
         <img src="./images/logo.svg" alt="logo" />
       </div>
       <nav id="main-nav">
-        <img src="./images/icon-hamburger.svg" />
-        <ul>
-          <li>How we work</li>
-          <li>Blog</li>
-          <li>Account</li>
-          <li>View plans</li>
+        <button class="hamb-button" id="hambButton">
+          <img src="./images/icon-hamburger.svg" />
+        </button>
+        
+        <ul class="hidden-menu" id="navMenu">
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">View plans</a></li>
         </ul>
       </nav>
     </header>
@@ -123,5 +126,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script src="app.js"></script>
   </body>
 </html>
