@@ -11,3 +11,8 @@ hamburguer.addEventListener('click', function(){
         click = 0;
     }
 })
+
+if (screen.width > 768) {
+    menu.className = 'big-screen-nav';
+    hamburguer.style.display = 'none';
+}
